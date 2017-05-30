@@ -1,0 +1,118 @@
+/*Geral*/
+*  {
+margin:0;
+}
+html, body {
+  background: #2E5656;
+height:100%;
+}
+.centralizado{
+display: flex;
+align-items: center;
+justify-content: center;
+/*border: 1px solid rgba(0, 0, 0, .3)*/
+}
+ul{
+list-style-type: none;
+padding: 0;
+}
+/*Header*/
+.topo{
+background-color: #333;
+
+}
+/*Colunas*/
+.linha{
+width: 94%;
+margin: 0 auto;
+}
+.coluna-3{
+width: 33.33333%;
+}
+.coluna-4{
+float: left;
+width: 33%;
+margin: 40px;
+}
+.coluna-8{
+width: 66.66666667%;
+}
+/*Menu*/
+.vertical {
+margin-left: 30px;
+overflow: auto;
+}
+.vertical a {
+display: inline-block;
+color: white;
+text-align: center;
+padding: 24px;
+text-decoration: none;
+}
+.vertical a:hover {
+background-color: #777;
+}
+/*Conteudo*/
+.texto-centralizado{
+text-align: center;
+}
+/*Rodape*/
+.rodape {
+clear:both;
+color: white;
+background: #555;
+position:absolute;
+width:100%;
+}
+.rede-social{
+color: white;
+text-decoration:none;
+}
+.conteudo-pequeno{
+width: 150px;
+}
+/*Tratamento de imagens*/
+img{
+display: block;
+width: 100%;
+height: auto;
+}
+/*table*/
+table {
+border-collapse: collapse;
+width: 100%;
+color: white;
+}
+thead{
+  background: black;
+  color:white;
+}
+td, th {
+text-align: left;
+padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #301E42;
+}
+
+/*forumal*/
+.habilidades{
+  background: #fff;
+}
+.projetos h2{
+  color: white;
+}
+.sobre{
+  background: #fff;
+}
+.projetos{
+}
+
+.espacamento{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.espacamento-conteudo{
+  padding-bottom: 50px;
+}
